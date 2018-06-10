@@ -1,0 +1,223 @@
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/ProgressViewer.java:40:1: package ipsk.db.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.db.speech.PromptItem;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/ProgressViewer.java:41:1: package ipsk.swing.table does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.swing.table.AutoFontCellRenderer;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/ProgressViewer.java:42:1: package ipsk.swing.table does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.swing.table.DisableNullValueCellRenderer;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:29:1: package ipsk.db.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.db.speech.Mediaitem;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:30:1: package ipsk.db.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.db.speech.Nonrecording;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:31:1: package ipsk.db.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.db.speech.PromptItem;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:32:1: package ipsk.db.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.db.speech.Recording;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:33:1: package ipsk.db.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.db.speech.Script;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:34:1: package ipsk.db.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.db.speech.Section;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:35:1: package ipsk.io does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.io.StreamCopy;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:36:1: package ipsk.net does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.net.URLContext;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:37:1: package ipsk.xml does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.xml.DOMConverter;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:38:1: package ipsk.xml does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.xml.DOMConverterException;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/ProgressViewer.java:95:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class AutoFontCellRenderer[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ipsk.apps.speechrecorder.ProgressViewer[0m
+[0m[[0m[31merror[0m] [0m[0m	private AutoFontCellRenderer promptTextCellRenderer;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:109:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Script[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ipsk.apps.speechrecorder.session.SessionManager[0m
+[0m[[0m[31merror[0m] [0m[0m	private Script script;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:32:1: package ipsk.audio.capture.session.info does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.session.info.RecordingSession;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:33:1: package ipsk.audio.utils does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.utils.AudioFormatUtils;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:34:1: package ipsk.io does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.io.FileUtils;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:35:1: package ipsk.net does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.net.Upload;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:36:1: package ipsk.net does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.net.UploadCache;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:37:1: package ipsk.net does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.net.UploadCacheListener;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:38:1: package ipsk.net does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.net.UploadFile;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:39:1: package ipsk.net.event does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.net.event.UploadConnectionEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:40:1: package ipsk.net.event.UploadConnectionEvent does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.net.event.UploadConnectionEvent.ConnectionState;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:41:1: package ipsk.net.event does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.net.event.UploadEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:42:1: package ipsk.text does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.text.NaturalNumberFormat;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/storage/StorageManager.java:82:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol: class UploadCacheListener[0m
+[0m[[0m[31merror[0m] [0m[0mpublic class StorageManager implements UploadCacheListener {[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:133:1: package Section does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m	private Section.Mode defaultMode;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:215:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Script[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ipsk.apps.speechrecorder.session.SessionManager[0m
+[0m[[0m[31merror[0m] [0m[0m	public Script getScript() {[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:235:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Script[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ipsk.apps.speechrecorder.session.SessionManager[0m
+[0m[[0m[31merror[0m] [0m[0m	public void setScript(Script script){[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:336:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Section[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ipsk.apps.speechrecorder.session.SessionManager[0m
+[0m[[0m[31merror[0m] [0m[0m	public Section getRecSectionForItem(int itemIndex) {[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:363:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Section[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ipsk.apps.speechrecorder.session.SessionManager[0m
+[0m[[0m[31merror[0m] [0m[0m	public Section getCurrentRecSection() {[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:372:1: package Section does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m	public Section.PromptPhase currentPromptPhase(){[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:400:1: package ipsk.db.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m	public ipsk.db.speech.PromptItem getPromptItem(int promptIndex) {[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:427:1: package ipsk.db.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m	public ipsk.db.speech.PromptItem getCurrentPromptItem() {[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:1080:1: package Section does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m	public Section.Mode getDefaultMode() {[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:1103:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class PromptItem[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ipsk.apps.speechrecorder.session.SessionManager[0m
+[0m[[0m[31merror[0m] [0m[0m	public PromptItem setCurrentPromptItem(PromptItem promptItem){[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java:1103:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class PromptItem[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ipsk.apps.speechrecorder.session.SessionManager[0m
+[0m[[0m[31merror[0m] [0m[0m	public PromptItem setCurrentPromptItem(PromptItem promptItem){[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:31:1: package ips.annot does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.BundleAnnotationPersistor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:32:1: package ips.annot does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.BundleAnnotationPersistorServiceDescriptor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:33:1: package ips.annot.autoannotator does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.autoannotator.AutoAnnotationServiceDescriptor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:34:1: package ips.annot.autoannotator does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.autoannotator.AutoAnnotator;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:35:1: package ips.annot.autoannotator does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.autoannotator.AutoAnnotatorServiceDescriptor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:36:1: package ips.annot.autoannotator.impl.ws.bas.g2p does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.autoannotator.impl.ws.bas.g2p.G2PAnnotatorServiceDescriptor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:37:1: package ips.annot.autoannotator.impl.ws.bas.g2p does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.autoannotator.impl.ws.bas.g2p.G2PServiceClient;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:38:1: package ips.annot.autoannotator.impl.ws.bas.maus does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.autoannotator.impl.ws.bas.maus.BasicMAUSWebServiceClient;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:39:1: package ips.annot.autoannotator.impl.ws.bas.maus does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.autoannotator.impl.ws.bas.maus.MAUSServiceClient;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:40:1: package ips.annot.io does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.io.BundleAnnotationFilePersistor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:41:1: package ips.annot.model does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.AnnotatedAudioClip;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:42:1: package ips.annot.model does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.PredefinedLevelDefinition;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:43:1: package ips.annot.model.db does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.db.AttributeDefinition;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:44:1: package ips.annot.model.db does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.db.Bundle;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:45:1: package ips.annot.model.db does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.db.Item;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:46:1: package ips.annot.model.db does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.db.Level;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:47:1: package ips.annot.model.db does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.db.LevelDefinition;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:48:1: package ips.annot.model.db does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.db.Schema;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:49:1: package ips.annot.model.db does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.db.Session;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:50:1: package ips.annot.model.emu does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.model.emu.EmuBundleAnnotationPersistor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:51:1: package ips.annot.text does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.text.SingleLevelTextFilePersistor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:52:1: package ips.annot.textgrid does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.textgrid.TextGridFileParser;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:53:1: package ips.annot.textgrid does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ips.annot.textgrid.TextGridFilePersistor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/config/RecordingConfiguration.java:29:1: package ipsk.audio.capture does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.PrimaryRecordTarget;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/config/RecordingConfiguration.java:30:1: package ipsk.beans.dom does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.beans.dom.DOMElements;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/config/RecordingConfiguration.java:38:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol: class DOMElements[0m
+[0m[[0m[31merror[0m] [0m[0m@DOMElements({"url","format","channelAssignment","captureScope","primaryRecordTarget","overwrite","overwriteWarning","numLines","labelExtension","mode","seamlessAutorecording","preRecDelay","postRecDelay","progressToNextUnrecorded","resetPeakOnRecording"})[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:139:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.AudioController;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:140:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.AudioController2;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:141:1: package ipsk.audio.AudioController2 does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.AudioController2.AudioController2Listener;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:142:1: package ipsk.audio.AudioController2 does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.AudioController2.AudioControllerEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:143:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.AudioController4;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:144:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.AudioControllerException;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:145:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.AudioFormatNotSupportedException;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:146:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.AudioSource;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:147:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.AudioSourceException;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:148:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.ConvenienceFileAudioSource;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:149:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.DeviceInfo;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:150:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.FileAudioSource;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:151:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.PluginChain;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:152:1: package ipsk.audio does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.URLAudioSource;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:153:1: package ipsk.audio.ajs does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.ajs.AJSAudioSystem;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:154:1: package ipsk.audio.ajs does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.ajs.AJSDevice;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:155:1: package ipsk.audio.ajs does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.ajs.AJSDeviceInfo;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:156:1: package ipsk.audio.ajs does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.ajs.MixerProviderServiceDescriptor;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:157:1: package ipsk.audio.arr.clip does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.arr.clip.AudioClip;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:158:1: package ipsk.audio.capture does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.BufferOverrunException;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:159:1: package ipsk.audio.capture does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.PrimaryRecordTarget;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:160:1: package ipsk.audio.capture.event does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.event.CaptureCloseEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:161:1: package ipsk.audio.capture.event does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.event.CaptureErrorEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:162:1: package ipsk.audio.capture.event does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.event.CaptureEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:163:1: package ipsk.audio.capture.event does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.event.CaptureRecordedEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:164:1: package ipsk.audio.capture.event does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.event.CaptureRecordingFileTransitEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:165:1: package ipsk.audio.capture.event does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.event.CaptureStartCaptureEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:166:1: package ipsk.audio.capture.event does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.capture.event.CaptureStartRecordEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:167:1: package ipsk.audio.dsp does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.dsp.LevelInfo;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:168:1: package ipsk.audio.dsp.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.dsp.speech.SpeechFinalSilenceDetector;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:169:1: package ipsk.audio.dsp.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.dsp.speech.SpeechFinalSilenceDetectorEvent;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:170:1: package ipsk.audio.dsp.speech does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.dsp.speech.SpeechFinalSilenceDetectorListener;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:171:1: package ipsk.audio.dsp.speech.vad does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.dsp.speech.vad.VoiceActivityDetector;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:172:1: package ipsk.audio.dsp.speech.vad.impl does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.dsp.speech.vad.impl.VoicedSpeechDetector;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:173:1: package ipsk.audio.mixer does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.mixer.MixerManager;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/SpeechRecorder.java:174:1: package ipsk.audio.player does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport ipsk.audio.player.Player;[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/script/ui/ScriptUIDialog.java: Some input files use or override a deprecated API.[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/script/ui/ScriptUIDialog.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java: Some input files use unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/naseem/Desktop/SpeechRecorder SBT/speechrecorder/src/main/java/ipsk/apps/speechrecorder/session/SessionManager.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0minfo[0m] [0m[0mSome messages have been simplified; recompile with -Xdiags:verbose to get full output[0m

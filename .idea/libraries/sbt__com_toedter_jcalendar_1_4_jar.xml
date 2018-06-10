@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.toedter:jcalendar:1.4:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../.ivy2/cache/com.toedter/jcalendar/jars/jcalendar-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.toedter/jcalendar/srcs/jcalendar-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="speechrecorder$sources"
+		revision="0.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180610170212"/>
+	<dependencies>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.jpa">
+			<revision name="2.6.5" status="release" pubdate="20170824053221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3695" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.jpa/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa/2.6.5/org.eclipse.persistence.jpa-2.6.5.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.jpa" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1289676" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.jpa/srcs/org.eclipse.persistence.jpa-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa/2.6.5/org.eclipse.persistence.jpa-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.moxy">
+			<revision name="2.6.5" status="release" pubdate="20170824053246" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3179" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.moxy/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.moxy/2.6.5/org.eclipse.persistence.moxy-2.6.5.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.moxy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="482910" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.moxy/srcs/org.eclipse.persistence.moxy-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.moxy/2.6.5/org.eclipse.persistence.moxy-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.validation" name="validation-api">
+			<revision name="1.1.0.Final" status="release" pubdate="20130410160303" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://beanvalidation.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3200" time="0" location="/root/.ivy2/cache/javax.validation/validation-api/ivy-1.1.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="1.1.0.Final" rev-constraint-default="1.1.0.Final" rev-constraint-dynamic="1.1.0.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="validation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="94671" time="0" location="/root/.ivy2/cache/javax.validation/validation-api/srcs/validation-api-1.1.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.core">
+			<revision name="2.6.5" status="release" pubdate="20170824053146" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="16">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3023" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.core/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.core/2.6.5/org.eclipse.persistence.core-2.6.5.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4673699" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.core/srcs/org.eclipse.persistence.core-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.core/2.6.5/org.eclipse.persistence.core-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.asm">
+			<revision name="2.6.5" status="release" pubdate="20170824053138" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="15">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2677" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.asm/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.asm/2.6.5/org.eclipse.persistence.asm-2.6.5.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="480762" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.asm/srcs/org.eclipse.persistence.asm-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.asm/2.6.5/org.eclipse.persistence.asm-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.1" status="release" pubdate="20100225142158" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2583" time="0" location="/root/.ivy2/cache/junit/junit/ivy-4.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.8.1/junit-4.8.1.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="4.8.1" rev-constraint-default="4.8.1" rev-constraint-dynamic="4.8.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="130755" time="0" location="/root/.ivy2/cache/junit/junit/srcs/junit-4.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.1/junit-4.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.help" name="javahelp">
+			<revision name="2.0.05" status="release" pubdate="20101029190511" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://javahelp.dev.java.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="GNU General Public License - Version 2 with the class path exception" url="https://javahelp.dev.java.net/license.txt"/>
+				<metadata-artifact status="no" details="" size="2564" time="0" location="/root/.ivy2/cache/javax.help/javahelp/ivy-2.0.05.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/help/javahelp/2.0.05/javahelp-2.0.05.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.0.05" rev-constraint-default="2.0.05" rev-constraint-dynamic="2.0.05" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javahelp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="378089" time="0" location="/root/.ivy2/cache/javax.help/javahelp/srcs/javahelp-2.0.05-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/help/javahelp/2.0.05/javahelp-2.0.05-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish" name="javax.json">
+			<revision name="1.0.4" status="release" pubdate="20131118225343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsonp.java.net" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="12">
+				<license name="                 Dual license consisting of the CDDL v1.1 and GPL v2             " url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="5397" time="0" location="/root/.ivy2/cache/org.glassfish/javax.json/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="105126" time="0" location="/root/.ivy2/cache/org.glassfish/javax.json/srcs/javax.json-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="javax.persistence">
+			<revision name="2.1.1" status="release" pubdate="20151211142735" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="11">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2663" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/javax.persistence/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.1.1/javax.persistence-2.1.1.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.persistence" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="260041" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/javax.persistence/srcs/javax.persistence-2.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.1.1/javax.persistence-2.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jgoodies" name="jgoodies-looks">
+			<revision name="2.6.0" status="release" pubdate="20150811000414" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://looks.java.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.html"/>
+				<metadata-artifact status="no" details="" size="3486" time="0" location="/root/.ivy2/cache/com.jgoodies/jgoodies-looks/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jgoodies/jgoodies-looks/2.6.0/jgoodies-looks-2.6.0.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jgoodies-looks" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="351965" time="0" location="/root/.ivy2/cache/com.jgoodies/jgoodies-looks/srcs/jgoodies-looks-2.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jgoodies/jgoodies-looks/2.6.0/jgoodies-looks-2.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jgoodies" name="jgoodies-common">
+			<revision name="1.8.0" status="release" pubdate="20150811001253" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jgoodies.com/downloads/libraries.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="20">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.html"/>
+				<metadata-artifact status="no" details="" size="3157" time="0" location="/root/.ivy2/cache/com.jgoodies/jgoodies-common/ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jgoodies/jgoodies-common/1.8.0/jgoodies-common-1.8.0.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jgoodies-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="72202" time="0" location="/root/.ivy2/cache/com.jgoodies/jgoodies-common/srcs/jgoodies-common-1.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jgoodies/jgoodies-common/1.8.0/jgoodies-common-1.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110117002147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6637" time="0" location="/root/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="/root/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.antlr">
+			<revision name="2.6.5" status="release" pubdate="20170824053132" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master" position="8">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2681" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.antlr/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.antlr/2.6.5/org.eclipse.persistence.antlr-2.6.5.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.antlr" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="216271" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.antlr/srcs/org.eclipse.persistence.antlr-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.antlr/2.6.5/org.eclipse.persistence.antlr-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.toedter" name="jcalendar">
+			<revision name="1.4" status="release" pubdate="20130904161539" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.toedter.com/en/jcalendar/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="GNU LESSER GENERAL PUBLIC LICENSE" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3191" time="0" location="/root/.ivy2/cache/com.toedter/jcalendar/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/toedter/jcalendar/1.4/jcalendar-1.4.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jcalendar" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="103429" time="0" location="/root/.ivy2/cache/com.toedter/jcalendar/srcs/jcalendar-1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/toedter/jcalendar/1.4/jcalendar-1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpmime">
+			<revision name="4.3" status="release" pubdate="20130904212312" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache License" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="9255" time="0" location="/root/.ivy2/cache/org.apache.httpcomponents/httpmime/ivy-4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3/httpmime-4.3.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="4.3" rev-constraint-default="4.3" rev-constraint-dynamic="4.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpmime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36635" time="0" location="/root/.ivy2/cache/org.apache.httpcomponents/httpmime/srcs/httpmime-4.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3/httpmime-4.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.jpa.jpql">
+			<revision name="2.6.5" status="release" pubdate="20170824053125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2687" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.jpa.jpql/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.6.5/org.eclipse.persistence.jpa.jpql-2.6.5.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.jpa.jpql" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1227880" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.jpa.jpql/srcs/org.eclipse.persistence.jpa.jpql-2.6.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.6.5/org.eclipse.persistence.jpa.jpql-2.6.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging-api">
+			<revision name="1.1" status="release" pubdate="20070604002601" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/logging/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2792" time="0" location="/root/.ivy2/cache/commons-logging/commons-logging-api/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging-api" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427114006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.9" status="release" pubdate="20131221055739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10097" time="0" location="/root/.ivy2/cache/commons-codec/commons-codec/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278370" time="0" location="/root/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.3" status="release" pubdate="20130904212215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache License" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="9671" time="0" location="/root/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3/httpclient-4.3.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="4.3" rev-constraint-default="4.3" rev-constraint-dynamic="4.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="653833" time="0" location="/root/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3/httpclient-4.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.3" status="release" pubdate="20130729180627" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="17">
+				<license name="Apache License" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="7483" time="0" location="/root/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="4.3" rev-constraint-default="4.3" rev-constraint-dynamic="4.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="376843" time="0" location="/root/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.3" status="release" pubdate="20130516230523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10350" time="0" location="/root/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
+				<caller organisation="default" name="speechrecorder$sources" conf="compile-internal, compile, provided, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73915" time="0" location="/root/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

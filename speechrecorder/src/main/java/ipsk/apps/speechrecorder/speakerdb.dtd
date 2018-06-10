@@ -1,0 +1,17 @@
+<!ELEMENT speakerlist (speaker)+>
+
+<!ELEMENT speaker (ID, code, familyname?, givenname?, sex?, date_of_birth?, accent?)>
+
+<!ELEMENT ID (#PCDATA)>
+
+<!ELEMENT code (#PCDATA)>
+
+<!ELEMENT familyname (#PCDATA)>
+
+<!ELEMENT givenname (#PCDATA)>
+
+<!ELEMENT sex (#PCDATA)>
+
+<!ELEMENT date_of_birth (#PCDATA)>
+
+<!ELEMENT accent (#PCDATA)>

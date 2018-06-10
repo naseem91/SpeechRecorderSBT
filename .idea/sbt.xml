@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/audiotools" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/audiotools" />
+            <option value="$PROJECT_DIR$/audiotools/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.1.6" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/javautils" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/javautils" />
+            <option value="$PROJECT_DIR$/javautils/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.1.6" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/speech_database_tools" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/speech_database_tools" />
+            <option value="$PROJECT_DIR$/speech_database_tools/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.1.6" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/speechdb" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/speechdb" />
+            <option value="$PROJECT_DIR$/speechdb/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.1.6" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/speechrecorder" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/speechrecorder" />
+            <option value="$PROJECT_DIR$/speechrecorder/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.1.6" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

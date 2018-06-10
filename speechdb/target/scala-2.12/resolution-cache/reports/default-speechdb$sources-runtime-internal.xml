@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="speechdb$sources"
+		revision="0.1"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180610170241"/>
+	<dependencies>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.jpa">
+			<revision name="2.7.1" status="release" pubdate="20171226044324" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3695" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.jpa/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa/2.7.1/org.eclipse.persistence.jpa-2.7.1.pom"/>
+				<caller organisation="default" name="speechdb$sources" conf="compile, runtime-internal, runtime, optional" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.jpa" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1282646" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.jpa/srcs/org.eclipse.persistence.jpa-2.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa/2.7.1/org.eclipse.persistence.jpa-2.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.antlr">
+			<revision name="2.7.1" status="release" pubdate="20171226044209" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2681" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.antlr/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.antlr/2.7.1/org.eclipse.persistence.antlr-2.7.1.pom"/>
+				<caller organisation="default" name="speechdb$sources" conf="compile, runtime-internal, runtime, optional" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.antlr" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="226373" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.antlr/srcs/org.eclipse.persistence.antlr-2.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.antlr/2.7.1/org.eclipse.persistence.antlr-2.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.core">
+			<revision name="2.7.1" status="release" pubdate="20171226044222" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3023" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.core/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.core/2.7.1/org.eclipse.persistence.core-2.7.1.pom"/>
+				<caller organisation="default" name="speechdb$sources" conf="compile, runtime-internal, runtime, optional" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4618246" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.core/srcs/org.eclipse.persistence.core-2.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.core/2.7.1/org.eclipse.persistence.core-2.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.asm">
+			<revision name="2.7.1" status="release" pubdate="20171226044215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2677" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.asm/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.asm/2.7.1/org.eclipse.persistence.asm-2.7.1.pom"/>
+				<caller organisation="default" name="speechdb$sources" conf="compile, runtime-internal, runtime, optional" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="447385" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.asm/srcs/org.eclipse.persistence.asm-2.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.asm/2.7.1/org.eclipse.persistence.asm-2.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="javax.persistence">
+			<revision name="2.2.0" status="release" pubdate="20170822084509" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2663" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/javax.persistence/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.2.0/javax.persistence-2.2.0.pom"/>
+				<caller organisation="default" name="speechdb$sources" conf="compile, runtime-internal, runtime, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.persistence" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="293509" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/javax.persistence/srcs/javax.persistence-2.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.2.0/javax.persistence-2.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish" name="javax.json">
+			<revision name="1.0.4" status="release" pubdate="20131118225343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsonp.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="                 Dual license consisting of the CDDL v1.1 and GPL v2             " url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="5397" time="0" location="/root/.ivy2/cache/org.glassfish/javax.json/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom"/>
+				<caller organisation="default" name="speechdb$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="105126" time="0" location="/root/.ivy2/cache/org.glassfish/javax.json/srcs/javax.json-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.persistence" name="org.eclipse.persistence.jpa.jpql">
+			<revision name="2.7.1" status="release" pubdate="20171226044202" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/eclipselink" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2687" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.jpa.jpql/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.7.1/org.eclipse.persistence.jpa.jpql-2.7.1.pom"/>
+				<caller organisation="default" name="speechdb$sources" conf="compile, runtime-internal, runtime, optional" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.persistence.jpa.jpql" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1239350" time="0" location="/root/.ivy2/cache/org.eclipse.persistence/org.eclipse.persistence.jpa.jpql/srcs/org.eclipse.persistence.jpa.jpql-2.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.7.1/org.eclipse.persistence.jpa.jpql-2.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427114006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="default" name="speechdb$sources" conf="compile, runtime-internal, runtime, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

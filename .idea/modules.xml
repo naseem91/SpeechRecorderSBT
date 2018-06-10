@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/audiotools/.idea/modules/audiotools.iml" filepath="$PROJECT_DIR$/audiotools/.idea/modules/audiotools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/audiotools/.idea/modules/audiotools-build.iml" filepath="$PROJECT_DIR$/audiotools/.idea/modules/audiotools-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javautils/.idea/modules/javautils.iml" filepath="$PROJECT_DIR$/javautils/.idea/modules/javautils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javautils/.idea/modules/javautils-build.iml" filepath="$PROJECT_DIR$/javautils/.idea/modules/javautils-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speech_database_tools/.idea/modules/speech_database_tools.iml" filepath="$PROJECT_DIR$/speech_database_tools/.idea/modules/speech_database_tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speech_database_tools/.idea/modules/speech_database_tools-build.iml" filepath="$PROJECT_DIR$/speech_database_tools/.idea/modules/speech_database_tools-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speechdb/.idea/modules/speechdb.iml" filepath="$PROJECT_DIR$/speechdb/.idea/modules/speechdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speechdb/.idea/modules/speechdb-build.iml" filepath="$PROJECT_DIR$/speechdb/.idea/modules/speechdb-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speechrecorder/.idea/modules/speechrecorder.iml" filepath="$PROJECT_DIR$/speechrecorder/.idea/modules/speechrecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speechrecorder/.idea/modules/speechrecorder-build.iml" filepath="$PROJECT_DIR$/speechrecorder/.idea/modules/speechrecorder-build.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,438 @@
+[info] :: resolving dependencies :: default#speechrecorder$sources;0.1
+[info] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#speechrecorder$sources;0.1 [compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->default]
+[info] Resolving org.apache.httpcomponents#httpclient;4.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.3 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3
+[info] 	found org.apache.httpcomponents#httpclient;4.3 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->master(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->default]
+[info] Resolving commons-codec#commons-codec;1.9 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], compile-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)]}
+[debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
+[info] 	found commons-codec#commons-codec;1.9 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->master(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->compile]
+[info] Resolving commons-logging#commons-logging;1.1.3 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3
+[info] 	found commons-logging#commons-logging;1.1.3 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->master(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->default]
+[info] Resolving org.scala-lang#scala-library;2.12.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.6 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.6
+[info] 	found org.scala-lang#scala-library;2.12.6 in sbt-chain
+[info] 	[2.12.6] org.scala-lang#scala-library;2.12.6
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->default]
+[info] Resolving commons-logging#commons-logging-api;1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-logging#commons-logging-api;1.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: commons-logging#commons-logging-api;1.1
+[info] 	found commons-logging#commons-logging-api;1.1 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->master(*)]
+[info] Resolving org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5
+[info] 	found org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->default]
+[info] Resolving org.apache.httpcomponents#httpmime;4.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpmime;4.3 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3
+[info] 	found org.apache.httpcomponents#httpmime;4.3 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->default]
+[info] Resolving com.toedter#jcalendar;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: com.toedter#jcalendar;1.4 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.toedter#jcalendar;1.4
+[info] 	found com.toedter#jcalendar;1.4 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->master(*)]
+[info] Resolving org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 {compile=[master(*), compile, runtime(*), runtime, compile(*), master, default(compile)], runtime=[master(*), compile, runtime(*), runtime, compile(*), master, default(compile)], test=[master(*), compile, runtime(*), runtime, compile(*), master, default(compile)], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master, default(compile)], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master, default(compile)], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master, default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5
+[info] 	found org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.antlr;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->default]
+[info] Resolving commons-lang#commons-lang;2.6 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-lang#commons-lang;2.6 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.6
+[info] 	found commons-lang#commons-lang;2.6 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-lang#commons-lang;2.6 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->default]
+[info] Resolving com.jgoodies#jgoodies-looks;2.6.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.jgoodies#jgoodies-looks;2.6.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.jgoodies#jgoodies-looks;2.6.0
+[info] 	found com.jgoodies#jgoodies-looks;2.6.0 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-looks;2.6.0 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#javax.persistence;2.1.1 [compile->master(*)]
+[info] Resolving org.eclipse.persistence#javax.persistence;2.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.persistence#javax.persistence;2.1.1 {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.persistence#javax.persistence;2.1.1
+[info] 	found org.eclipse.persistence#javax.persistence;2.1.1 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#javax.persistence;2.1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#javax.persistence;2.1.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#javax.persistence;2.1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#javax.persistence;2.1.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#javax.persistence;2.1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#javax.persistence;2.1.1 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#javax.persistence;2.1.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.glassfish#javax.json;1.0.4 [compile->master(*)]
+[info] Resolving org.glassfish#javax.json;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish#javax.json;1.0.4 {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.glassfish#javax.json;1.0.4
+[info] 	found org.glassfish#javax.json;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.glassfish#javax.json;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.glassfish#javax.json;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.glassfish#javax.json;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.glassfish#javax.json;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.glassfish#javax.json;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.glassfish#javax.json;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.glassfish#javax.json;1.0.4 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->default]
+[info] Resolving javax.help#javahelp;2.0.05 ...
+[debug] sbt-chain: Checking cache for: dependency: javax.help#javahelp;2.0.05 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: javax.help#javahelp;2.0.05
+[info] 	found javax.help#javahelp;2.0.05 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.help#javahelp;2.0.05 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->default]
+[info] Resolving junit#junit;4.8.1 ...
+[debug] sbt-chain: Checking cache for: dependency: junit#junit;4.8.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: junit#junit;4.8.1
+[info] 	found junit#junit;4.8.1 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->junit#junit;4.8.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 [compile->master(*)]
+[info] Resolving org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5
+[info] 	found org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.asm;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 [compile->master(*)]
+[info] Resolving org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.persistence#org.eclipse.persistence.core;2.6.5
+[info] 	found org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.core;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->default]
+[info] Resolving org.apache.httpcomponents#httpcore;4.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.3 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3
+[info] 	found org.apache.httpcomponents#httpcore;4.3 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->master(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpcore;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->default]
+[info] Resolving org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5
+[info] 	found org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.moxy;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->default]
+[info] Resolving org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5
+[info] 	found org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->default]
+[info] Resolving com.jgoodies#jgoodies-common;1.8.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.jgoodies#jgoodies-common;1.8.0 {compile=[default, compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)], test=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.jgoodies#jgoodies-common;1.8.0
+[info] 	found com.jgoodies#jgoodies-common;1.8.0 in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->master(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.jgoodies#jgoodies-common;1.8.0 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.validation#validation-api;1.1.0.Final [compile->master(*)]
+[info] Resolving javax.validation#validation-api;1.1.0.Final ...
+[debug] sbt-chain: Checking cache for: dependency: javax.validation#validation-api;1.1.0.Final {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: javax.validation#validation-api;1.1.0.Final
+[info] 	found javax.validation#validation-api;1.1.0.Final in sbt-chain
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.validation#validation-api;1.1.0.Final [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.validation#validation-api;1.1.0.Final [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.validation#validation-api;1.1.0.Final [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.validation#validation-api;1.1.0.Final [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.validation#validation-api;1.1.0.Final [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.validation#validation-api;1.1.0.Final [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->javax.validation#validation-api;1.1.0.Final [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#speechrecorder$sources;0.1 [runtime]
+[debug] == resolving dependencies for default#speechrecorder$sources;0.1 [compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->default]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->master(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpclient;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->default]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->master(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->master(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging;1.1.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->default]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->default]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->commons-logging#commons-logging-api;1.1 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->master(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->compile(*)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.eclipse.persistence#org.eclipse.persistence.jpa.jpql;2.6.5 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->default]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->default(compile)]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->org.apache.httpcomponents#httpmime;4.3 [compile->master]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->default]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->runtime]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->compile]
+[debug] == resolving dependencies default#speechrecorder$sources;0.1->com.toedter#jcalendar;1.4 [compile->master]
